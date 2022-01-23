@@ -1,5 +1,15 @@
-.log
 .DS_Store
-.jest-*
-lib
+
 node_modules
+.env
+
+build
+dist
+
+graphql.*.json
+
+# Random things to ignore
+ignore/
+package-lock.json
+/yarn-offline-cache
+.cache
