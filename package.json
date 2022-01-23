@@ -9,6 +9,9 @@
     "@babel/core": "^7.16.12",
     "@babel/preset-env": "^7.16.11",
     "@babel/preset-react": "^7.16.7",
+    "@storybook/addon-docs": "^6.4.14",
+    "@storybook/preset-create-react-app": "^4.0.0",
+    "@storybook/react": "^6.4.14",
     "babel-core": "7.0.0-bridge.0",
     "babel-loader": "^8.2.3",
     "babel-plugin-styled-components": "^2.0.2",
@@ -19,6 +22,8 @@
     "webpack": "^5.67.0"
   },
   "scripts": {
-    "build": "lerna exec --parallel -- babel --root-mode upward src -d lib --ignore **/*.stories.js,**/*.spec.js"
+    "build": "lerna exec --parallel -- babel --root-mode upward src -d lib --ignore **/*.stories.js,**/*.spec.js",
+    "bootstrap": "lerna bootstrap --use-workspaces",
+    "storybook": "start-storybook -p 5555"
   }
 }
