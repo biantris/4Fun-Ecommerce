@@ -17,7 +17,7 @@
     "babel-loader": "^8.2.3",
     "babel-plugin-styled-components": "^2.0.2",
     "esbuild": "^0.14.13",
-    "jest": "^27.4.7",
+    "jest": "^28.0.2",
     "jest-haste-map": "^28.0.1",
     "jest-resolve": "^28.0.1",
     "jest-styled-components": "^7.0.8",
