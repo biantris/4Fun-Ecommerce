@@ -21,7 +21,7 @@
     "jest-haste-map": "^28.0.1",
     "jest-resolve": "^28.0.1",
     "jest-styled-components": "^7.0.8",
-    "lerna": "^4.0.0",
+    "lerna": "^5.1.7",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-test-renderer": "^17.0.2",
